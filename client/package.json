@@ -1,0 +1,52 @@
+{
+  "name": "@crapthings/parcel-react-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parcel.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@ckeditor/ckeditor5-basic-styles": "^11.1.0",
+    "@ckeditor/ckeditor5-build-classic": "^12.1.0",
+    "@ckeditor/ckeditor5-core": "^12.1.0",
+    "@ckeditor/ckeditor5-editor-classic": "^12.1.0",
+    "@ckeditor/ckeditor5-essentials": "^11.0.1",
+    "@ckeditor/ckeditor5-image": "^13.0.1",
+    "@ckeditor/ckeditor5-paragraph": "^11.0.1",
+    "@ckeditor/ckeditor5-react": "^1.1.3",
+    "@ckeditor/ckeditor5-theme-lark": "^13.0.1",
+    "@ckeditor/ckeditor5-ui": "^12.1.0",
+    "@material-ui/core": "^3.9.3",
+    "axios": "^0.18.0",
+    "faker": "^4.1.0",
+    "history": "^4.9.0",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.11",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-axios": "^2.0.3",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "slate": "^0.47.2",
+    "slate-react": "^0.22.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.3.2",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "stylus": "^0.54.5"
+  }
+}
